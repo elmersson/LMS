@@ -1,6 +1,6 @@
 import { Textarea } from "@/components/ui/textarea"
 import { ErrorMessage } from "@hookform/error-message"
-import { FieldErrors, FieldValues, UseFormRegister } from "react-hook-form"
+import type { FieldErrors, FieldValues, UseFormRegister } from "react-hook-form"
 import { Input } from "../../ui/input"
 import { Label } from "../../ui/label"
 
@@ -10,6 +10,7 @@ type FormGeneratorProps = {
     options?: { value: string; label: string; id: string }[]
     label?: string
     placeholder: string
+    // biome-ignore lint/suspicious/noExplicitAny: <explanation>
     register: UseFormRegister<any>
     name: string
     errors: FieldErrors<FieldValues>
