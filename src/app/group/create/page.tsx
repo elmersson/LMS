@@ -1,5 +1,4 @@
 import { onAuthenticatedUser } from "@/actions/auth"
-import { redirect } from "next/navigation"
 
 const GroupCreatePage = async ({
     searchParams,
@@ -8,14 +7,15 @@ const GroupCreatePage = async ({
 }) => {
     const user = await onAuthenticatedUser()
 
-    if (!user || !user.id) redirect("/sign-in")
+    if (!user || !user.id) {
+        console.log("user", user)
+        // redirect("/sign-in")
+    }
 
     return (
         <>
             <div className="px-7 flex flex-col">
-                <h5 className="font-bold text-base text-themeTextWhite">
-                    Payment Method
-                </h5>{" "}
+                <h5 className="font-bold text-base text-themeTextWhite">Hi</h5>
             </div>
         </>
     )
