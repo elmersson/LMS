@@ -6,7 +6,7 @@ This is a project to make it easier to share competence at Regent.
 
 ## Tech-stack
 
-### 📱💻🖥️ Frontend: [NextJS](https://github.com/vercel/next.js), [TailwindCSS](https://github.com/tailwindlabs/tailwindcss), [Shadcn](https://github.com/shadcn-ui/ui), [TypeScript](https://github.com/microsoft/TypeScript).
+### 📱💻🖥️ Frontend: [NextJS](https://github.com/vercel/next.js), [TailwindCSS](https://github.com/tailwindlabs/tailwindcss), [Shadcn](https://github.com/shadcn-ui/ui), [TypeScript](https://github.com/microsoft/TypeScript), [Clerk]().
 
 ### 💻🔧🚀: Backend: [Supabase](https://github.com/supabase/supabase).
 
